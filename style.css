@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: azure;
+    font-size: 18px;
+}
+
+
+header{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 1rem;
+    background-color: rgb(13, 52, 81);
+    color: white;
+    border-radius: 0 0 5px 5px;
+    border: 2px solid #6998AB;
+}
+
+body{
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
+
+.contenedorBotones{
+    text-align: center;
+    margin: 1rem;
+}
+
+.btn{
+    width: 150px;
+    padding: 5px 8px;
+    margin: .5rem;
+    background-color: #406882;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #406882;
+}
+
+.btn:hover{
+    background: #B1D0E0;
+    color: #1A374D;
+    border: 1px solid #1A374D;
+}
+
+.background{
+    background-color: #406882;
+}
+
+#contenidoCard{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenedor{
+    display: flex;
+    width: 250px; 
+    height: auto;
+    color: white;
+    margin: 1rem 0 1.5rem 1rem;
+    border-radius: 5px;
+    border: 2px solid #6998AB;
+    transition: transform 500ms ease;
+}
+
+.contenedor:hover{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    transform: scale(1.02);
+}
+
+.datosDisco{
+    padding: 1rem;
+}
+
+.contenedorPista{
+    padding: 1rem 0;
+}
+
+.contenedorPista h4{
+    font-size: 1.3rem;
+    padding-bottom: .5rem;
+    text-decoration: underline;
+}
+
+.datosPista{
+    padding-bottom: .3rem; 
+}
+.datosPista>li{
+    padding-bottom: 2px;
+}
+
+ul{
+    list-style: none;
+}
+
+.datosDisco>li{
+    padding: 5px 0;
+}
+
+
+footer{
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    color: white;
+}
+
+footer li a{
+    color: white;
+}
+
+footer li a:hover{
+    color: gray;
+}
